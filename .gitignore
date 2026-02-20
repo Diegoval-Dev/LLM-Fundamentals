@@ -1,0 +1,73 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Models and data
+*.pth
+*.pt
+*.ckpt
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.pb
+
+# Hugging Face cache
+.cache/
+huggingface_hub/
+
+# Logs
+logs/
+*.log
+wandb/
+runs/
+
+# Training outputs
+outputs/
+results/
+phi3-mini-med-adapter/
+phi3-mini-yoda-adapter/
+local-phi3-mini-yoda-adapter/
+
+# OS
+.DS_Store
+Thumbs.db
